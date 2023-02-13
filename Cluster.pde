@@ -5,5 +5,7 @@ public class Cluster
     public Cluster(int len, int x, int y)
     {
         // your code here
+       Tendril ted = new Tendril(NUM_STEMS, (int)(Math.random() * (2 * Math.PI)), x, y);
+       ted.show();
     }
 }
